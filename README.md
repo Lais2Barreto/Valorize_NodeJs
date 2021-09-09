@@ -1,4 +1,5 @@
 # NLW Valoriza
+Api made with NodeJs in which users can get authenticated and post compliments to one another
 
 ## Regras
 
