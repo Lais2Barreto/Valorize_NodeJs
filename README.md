@@ -1,25 +1,38 @@
-# NLW Valoriza
-Api made with NodeJs in which users can get authenticated and post compliments to one another
+# Valorize NLW Rocketseat
 
-## Regras
+Api made with NodeJs and Typescript in which users can get authenticated and post compliments to one another
 
-- Cadastro de usuário
+## Installation
 
-  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo email
+yarn 
 
-  [ x ] Não é permitido cadastrar usuário sem emails
+yarn dev
 
-- Cadastro de TAG
-  [ x ] Não é permitido cadastrar tag sem nome
+## Dependencies
 
-  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+SQLite
+Express
+Typeorm
 
-  [ x ] Não é permitido o cadastro por usuários que não sejam administradores
+## Rules
 
-- Cadastro de elogios
+- User Register
 
-  [ ] Não é permitido um usuário cadastrar um elogio para si
+  [ x ] It is not allowed to register more than one user with the same email
 
-  [ ] Não é permitido cadastrar elogios para usuarios inválidos
+  [ x ] It is not allowed to register a user without emails
 
-  [ ] O usuário precisa estar autenticado na aplicação
+- Tag Register
+  [ x ] It is not allowed to register an unnamed tag
+
+  [ x ] It is not allowed to register more than one tag with the same name
+
+  [ x ] Registration by users who are not administrators is not allowed
+
+- Compliments Register
+
+  [ ] Users are not allowed to register a compliment for themselves
+
+  [ ] It is not allowed to register compliments for invalid users
+
+  [ ] The user must be authenticated in the application
